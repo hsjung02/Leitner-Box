@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>play test</title>
+        <meta charset='utf-8'>
+        <style type="text/css">
+            .bigbox{
+              width: 140px;
+              height: 100px;
+              padding: 20px;
+              border: 1px solid black;
+              text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div><h1 style="text-align:center;">라이트너 암기법-단어 학습하기</h1></div>
+        <div><button><h3><%= box_num %>번 칸</h3></button></div>
+        <div>
+            <form action='/play/idx/0' method='post' style="float:left;"><input type='submit' value='1번 칸: <%= box1_length %>/10'></form>
+            <form action='/play/idx/1' method='post' style="float:left;"><input type='submit' value='2번 칸: <%= box2_length %>/20'></form>
+            <form action='/play/idx/2' method='post' style="float:left;"><input type='submit' value='3번 칸: <%= box3_length %>/30'></form>
+            <form action='/play/idx/3' method='post' style="float:left;"><input type='submit' value='4번 칸: <%= box4_length %>/40'></form>
+            <form action='/play/idx/4' method='post' style="float:left;"><input type='submit' value='5번 칸: <%= box5_length %>/50'></form>
+        </div>
+        <div>
+            <p class='bigbox'><%= word %></p>
+        </div>
+        <div>
+            <form action='/play/flip' method='post'><input type='submit' value='정답 확인하기'></form>
+        </div>
+        <div>
+            <form action='/play/succ' method='post' style="float:left;"><input type='submit' value='정답'></form>
+            <form action='/play/fail' method='post'><input type='submit' value='오답'></form>
+        </div>
+        <div>
+            <input type = "button" name = "btn" style = "WIDTH: 80pt; HEIGHT: 30pt;" value = "시작 화면으로" onClick = "location='/'">
+        </div>
+    </body>
+</html>

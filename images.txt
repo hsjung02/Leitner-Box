@@ -1,0 +1,4 @@
+CREATE TABLE images(
+    -> id int NOT NULL AUTO_INCREMENT primary key,
+    -> image VARCHAR(30) NOT NULL
+    -> );

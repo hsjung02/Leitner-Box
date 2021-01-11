@@ -1,0 +1,5 @@
+CREATE TABLE words(
+    -> id int NOT NULL AUTO_INCREMENT primary key,
+    -> eng VARCHAR(15) NOT NULL,
+    -> kor VARCHAR(15) NOT NULL
+    -> );

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>play test</title>
+        <meta charset='utf-8'>
+        <style type="text/css">
+            .bigbox{
+              width: 140px;
+              height: 100px;
+              padding: 20px;
+              border: 1px solid black;
+              text-align: center;
+            }
+            .img-wrapper{
+                text-align: center;
+                max-width:500px;
+                max-height:500px;
+            }
+            img{
+                max-width:100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div><h1 style="text-align:center;">라이트너 암기법-이미지 학습하기</h1></div>
+        <div><button><h3><%= imgbox_num %>번 칸</h3></button></div>
+        <div>
+            <form action='/img_play/imgidx/0' method='post' style="float:left;"><input type='submit' value='1번 칸: <%= imgbox1_length %>/10'></form>
+            <form action='/img_play/imgidx/1' method='post' style="float:left;"><input type='submit' value='2번 칸: <%= imgbox2_length %>/20'></form>
+            <form action='/img_play/imgidx/2' method='post' style="float:left;"><input type='submit' value='3번 칸: <%= imgbox3_length %>/30'></form>
+            <form action='/img_play/imgidx/3' method='post' style="float:left;"><input type='submit' value='4번 칸: <%= imgbox4_length %>/40'></form>
+            <form action='/img_play/imgidx/4' method='post' style="float:left;"><input type='submit' value='5번 칸: <%= imgbox5_length %>/50'></form>
+        </div>
+        <div class='img-wrapper'>
+            <img src=<%= img_source %>></img>
+        </div>
+        <div>
+            <form action='/img_play/flip' method='post'><input type='submit' value=<%= ans %>></form>
+        </div>
+        <div>
+            <form action='/img_play/succ' method='post' style="float:left;"><input type='submit' value='정답'></form>
+            <form action='/img_play/fail' method='post'><input type='submit' value='오답'></form>
+        </div>
+        <div>
+            <input type = "button" name = "btn" style = "WIDTH: 80pt; HEIGHT: 30pt;" value = "시작 화면으로" onClick = "location='/'">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 이미지 카드 추가 </title>
+        <meta charset = "utf-8">
+    </head>
+    <body>
+        <div>
+            <h1>CREATE IMAGE CARD</h1>
+        </div>
+        <form action="/create_imgcard" method="POST" enctype='multipart/form-data'>
+            <p>image : <input type = "file" name = "img" value = "word"> </p>
+            <p>meaning: <input type = "text" name = "mean" value = "단어"> </p>
+            <p><input type = "submit" value = "단어 추가"></p>
+        </form>
+        <div>
+            <input type = "button" name = "btn" style = "WIDTH: 80pt; HEIGHT: 30pt;" value = "시작 화면으로" onClick = "location.href='/'">
+        </div>
+    </body>
+</html>
