@@ -8,7 +8,14 @@
 ## Explanation of the web page
 - Initial Screen consists of six buttons. Top 3 buttons are related to word learning. Each are connected to 'learning', 'card adding', 'view all cards' menu. Bottom 3 buttons are related to image card learning and orders are same as those of word learning.
 - Learn Menu: 
-- Create Menu
+  - You can move any cells you want, by clicking one among five buttons
+  - The large box at the center shows a card you have to learn
+  - Check the answer by clicking '정답 확인하기' button
+  - If you got it right, click '정답' button
+  - Else, click '오답' button
+  - You can move back to main menu by clicking the button at the bottom
+- Create Menu:
   - Word Card: Input an english word and its meaning in Korean
   - Image Card: Input an image and any meaning you want
-- View Menu: All cards will be shown on a table. The button at the bottom is connected to initial screen
+  - You can move back to main menu by clicking the button at the bottom
+- View Menu: All cards will be shown on a table. The button at the bottom is connected to main menu
