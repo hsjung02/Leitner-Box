@@ -7,4 +7,8 @@
 
 ## Explanation of the web page
 - Initial Screen consists of six buttons. Top 3 buttons are related to word learning. Each are connected to 'learning', 'card adding', 'view all cards' menu. Bottom 3 buttons are related to image card learning and orders are same as those of word learning.
-- gdafadf
+- Learn Menu: 
+- Create Menu
+  - Word Card: Input an english word and its meaning in Korean
+  - Image Card: Input an image and any meaning you want
+- View Menu: All cards will be shown on a table. The button at the bottom is connected to initial screen
