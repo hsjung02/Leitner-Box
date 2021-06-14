@@ -20,7 +20,10 @@
   - 단어 카드: 영단어와 한국어 뜻을 입력하여 단어 카드를 추가할 수 있습니다
   - 이미지 카드: 컴퓨터에 저장되어 있는 이미지를 선택하고, 원하는 의미를 입력하여 이미지 카드를 추가할 수 있습니다
   - 가장 아래에 있는 버튼을 눌러 메인 화면으로 돌아갈 수 있습니다
+  ![카드 추가하기](/img/create.PNG)
 - 카드 조회: 카드 조회 버튼을 누르면 현재 라이트너 상자에 있는 모든 카드가 표에 정리되어 나타납니다. 가장 아래에 있는 버튼을 눌러 메인 화면으로 돌아갈 수 있습니다
+  ![카드 조회하기](/img/view.PNG)
+
 
 # Leitner-Box
 #### Leitner Box is a memorization using a box with five cells. Cards with question and answer will be put in the first cell, then move to the next cell when we got it correct. Otherwise, it will move back to the first cell regardless it is now placed. If a card reaches the fifth cell and we got it correct, which means we perfectly memorized it, it will be emitted from the box.
@@ -38,8 +41,14 @@
   - If you got it right, click '정답' button
   - Else, click '오답' button
   - You can move back to main menu by clicking the button at the bottom
+  - ![Learn](/img/play.PNG)
 - Create Menu:
   - Word Card: Input an english word and its meaning in Korean
   - Image Card: Input an image and any meaning you want
   - You can move back to main menu by clicking the button at the bottom
-- View Menu: All cards will be shown on a table. The button at the bottom is connected to main menu
+  - ![Create card](/img/create.PNG)
+- View Menu: 
+  - All cards will be shown on a table
+  - The button at the bottom is connected to main menu
+  - ![View cards](/img/view.PNG)
+
