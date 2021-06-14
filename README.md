@@ -4,7 +4,7 @@
 
 ### 이 프로그램은 Nodejs와 html을 기반으로 제작되었습니다.
 
-~~You can get to the service by connecting to http://141.164.50.196:8080/
+~~You can get to the service by connecting to http://141.164.50.196:8080/~~
 
 ## Explanation of the web page
 - Initial Screen consists of six buttons. Top 3 buttons are related to word learning. Each are connected to 'learning', 'card adding', 'view all cards' menu. Bottom 3 buttons are related to image card learning and orders are same as those of word learning.
